@@ -31,7 +31,7 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome} >ido</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome} >Afdi Fauzul Bahar</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -70,7 +70,7 @@ const Navbar = ({ toggle }) => {
                             </NavLinks>
                         </NavItem>
                     </NavMenu>
-                    <NavButton href="https://github.com/idoyudha/react-portofolio" target="_blank">
+                    <NavButton href="https://github.com/afdi11/AfdiProfilePage" target="_blank">
                         <GoRepoForked />
                         <AiOutlineStar />
                     </NavButton>

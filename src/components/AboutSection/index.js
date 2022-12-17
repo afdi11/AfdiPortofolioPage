@@ -39,6 +39,7 @@ const AboutSection = ({...data}) => {
                             <MeHead>{item.subject}</MeHead>
                             <MeOrg>{item.org}</MeOrg>
                             <Me>{item.year}</Me>
+                            <Me>{item.scholarship}</Me>
                         </List>
             })
         }
@@ -47,6 +48,7 @@ const AboutSection = ({...data}) => {
                         <MeHead>{values.about[0].subject}</MeHead>
                         <MeOrg>{values.about[0].org}</MeOrg>
                         <Me>{values.about[0].year}</Me>
+                        <Me>{values.about[0].scholarship}</Me>
                     </List>
         }
     }
@@ -58,9 +60,9 @@ const AboutSection = ({...data}) => {
         else if (param === 'ex') {
             setValues({...values, about: data.experience, nav1: null, nav2: "active", nav3: null})
         }
-        else {
-            setValues({...values, about: data.courses, nav1: null, nav2: null, nav3: "active"})
-        }
+        // else {
+        //     setValues({...values, about: data.courses, nav1: null, nav2: null, nav3: "active"})
+        // }
     }
 
     return (
@@ -86,10 +88,10 @@ const AboutSection = ({...data}) => {
                                         onClick={() => replaceData('ex')}>
                                         Experience
                                     </Navitem>
-                                    <Navitem className={values.nav3}
+                                    {/* <Navitem className={values.nav3}
                                         onClick={() => replaceData('courses')}>
                                         Courses
-                                    </Navitem>
+                                    </Navitem> */}
                                     <Link to="/resume">
                                         <ResumePage>
                                             <FcDocument />

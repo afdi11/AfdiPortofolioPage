@@ -21,7 +21,7 @@ const Sidebar = ( {isOpen, toggle} ) => {
                         Code
                     </SidebarLink>
                     <NavButton>
-                        <GitBtn href="https://github.com/idoyudha/react-portofolio">
+                        <GitBtn href="https://github.com/afdi11/AfdiProfilePage">
                             <GoRepoForked />
                             <AiOutlineStar />
                         </GitBtn>

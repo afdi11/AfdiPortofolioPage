@@ -71,14 +71,14 @@ const CodeSection = () => {
                         <Caption>My SQL</Caption>
                     </Logo>
                 </CodeWrapper>
-                <Heading>Days I Code</Heading>
+                {/* <Heading>Days I Code</Heading>
                 <GitHubCalendar 
-                    username="idoyudha" 
+                    username="afdi11" 
                     blockSize={14} 
                     blockMargin={5} 
                     fontSize={16} 
                     theme={colourTheme}
-                />
+                ></GitHubCalendar> */}
             </CodeContainer>
         </>
     )

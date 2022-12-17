@@ -20,7 +20,7 @@ export const ProjectsContainer = styled.div`
 export const ProjectsWrapper = styled.div`
     max-width: 1200px;
     margin: 0 auto;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 25px;

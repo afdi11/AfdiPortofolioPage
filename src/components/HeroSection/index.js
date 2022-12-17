@@ -11,7 +11,7 @@ const HeroSection = () => {
                     <HeroRow>
                         <HeroContent>
                             <HeroH1>
-                                Hi, I'm Ido
+                                Hi, I'm Afdi
                             </HeroH1>
                             <HeroP>
                                 <Type/>

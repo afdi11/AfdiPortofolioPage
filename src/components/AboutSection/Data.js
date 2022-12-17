@@ -1,51 +1,51 @@
 export const data = {
     id: 'about',
     heading: 'About Me',
-    description: "I’ve always sought out opportunities and challenges that are meaningful to the others.",
+    description: "Back-end engineer with 2 years working experience. can learn quickly. has experience working across fields such as software engineers, IT Support, journalists, and reporters. Just an ordinary human being who always wants to challenge himself to be more valuable",
     hobbydesc: "Apart from coding, some other activities that I love to do!",
     hobbies: {
         hobby1: "Travelling",
-        hobby2: "Futsal",
-        hobby3: "Hiking"
+        hobby2: "Swimming",
+        hobby3: "Camping"
     },
     education: [
         {
-            org: "Institut Teknologi Sepuluh Nopember",
-            subject: "Material Engineering",
-            year: "2014 - 2018",
-            organization: "Chairman and Founder of NACE ITS Student Chapter",
-            awards: "2nd Winner of Metallurgical and Material Competition 2017, held by University of Indonesia",
-            conference: "Presenter of International Corrosion Prevention Symposium for Research Scholars 2017, Kuala Lumpur, Malaysia",
-            scholarship: "Djarum Scholarship Awardee 2016"
-        },
-        {
-            org: "Purwadhika Digital Tecchnology School",
-            subject: "Full Stack Web Development",
-            year: "2021"
+            org: "UIN Sunan Kalijaga Yogyakarta",
+            subject: "Graduate Informatics Engineering",
+            year: "2022 - Now (On-Going)",
+            scholarship: "Awardee of Santri Berprestasi Scholarship"
+        },{
+            org: "Institut Teknologi Sumatera",
+            subject: "Bachelor of Informatics Engineering",
+            year: "2017-2021",
+            organization: "Head of Commission 1 Senat KM-Itera",
+            awards: "1st Winner of Essay Competition Scout Intelligence, held by Universitas Bandar Lampung",
+            conference: "Participant of International Conference on Science, Infrastructure Technology and Regional Development (ICOSITER) held by Institut Technology Sumatera",
+            scholarship: "Awardee of Lampung Provincial Government Scholarship"
         }
     ],
     courses: [
         {
-            subject: "Computer Science for Web Programming Professional",
-            org: "Harvard University",
-            year: "2021"
+            subject: "-",
+            org: "-",
+            year: "-"
         },
         {
-            subject: "Machine Learning",
-            org: "Stanford University",
-            year: "2020"
+            subject: "-",
+            org: "-",
+            year: "-"
         }
     ],
     experience: [
         {
             subject: "Software Engineer",
-            org: "Mbiz",
-            year: "2021 - now"
+            org: "Icube By Sirclo",
+            year: "2022 - now"
         },
         {
-            subject: "Management Trainee",
-            org: "Crown Beverage Cans Indonesia",
-            year: "2018 - 2020"
+            subject: "IT Support",
+            org: "Yayasan Nurul Huda Lampung",
+            year: "2021 - 2022"
         }
     ]
 }

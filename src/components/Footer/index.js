@@ -14,26 +14,26 @@ const FooterSection = () => {
         <>
             <Footer>
                 <FooterContainer>
-                    <Logo to="/" onClick={toggleHome} >ido</Logo>
+                    <Logo to="/" onClick={toggleHome} >^ Back to top</Logo>
                     <FooterMenu>
                         <MediaItem>
-                            <MediaButton href="mailto:idowidya.yudhatama@gamil.com" target="_blank">
+                            <MediaButton href="mailto:fauzulbaharafdi@gamil.com" target="_blank">
                                 <AiFillMail />
                             </MediaButton>
                         </MediaItem>
                         <MediaItem>
-                            <MediaButton href="https://github.com/idoyudha" target="_blank">
+                            <MediaButton href="https://github.com/afdi11" target="_blank">
                                 <AiFillGithub />
                             </MediaButton>
                         </MediaItem>
                         <MediaItem>
-                            <MediaButton href="https://www.linkedin.com/in/idoyudha/" target="_blank">
+                            <MediaButton href="https://www.linkedin.com/in/afdifauzulbahar/" target="_blank">
                                 <AiFillLinkedin />
                             </MediaButton>
                         </MediaItem>
                     </FooterMenu>
                     <Copyright>
-                        Designed and Developed by Ido
+                        Designed by Ido and Customize by Afdi
                     </Copyright>
                 </FooterContainer>
             </Footer>
