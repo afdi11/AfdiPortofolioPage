@@ -13,7 +13,7 @@ export const data = {
             org: "UIN Sunan Kalijaga Yogyakarta",
             subject: "Graduate Informatics Engineering",
             year: "2022 - Now (On-Going)",
-            scholarship: "Awardee of Santri Berprestasi Scholarship"
+            detail: "Awardee of Santri Berprestasi Scholarship"
         },{
             org: "Institut Teknologi Sumatera",
             subject: "Bachelor of Informatics Engineering",
@@ -21,7 +21,7 @@ export const data = {
             organization: "Head of Commission 1 Senat KM-Itera",
             awards: "1st Winner of Essay Competition Scout Intelligence, held by Universitas Bandar Lampung",
             conference: "Participant of International Conference on Science, Infrastructure Technology and Regional Development (ICOSITER) held by Institut Technology Sumatera",
-            scholarship: "Awardee of Lampung Provincial Government Scholarship"
+            detail: "Awardee of Lampung Provincial Government Scholarship"
         }
     ],
     courses: [
@@ -40,12 +40,12 @@ export const data = {
         {
             subject: "Software Engineer",
             org: "Icube By Sirclo",
-            year: "2022 - now"
+            year: "2022 - now",
         },
         {
             subject: "IT Support",
             org: "Yayasan Nurul Huda Lampung",
-            year: "2021 - 2022"
+            year: "2021 - 2022",
         }
     ]
 }

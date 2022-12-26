@@ -39,7 +39,7 @@ const AboutSection = ({...data}) => {
                             <MeHead>{item.subject}</MeHead>
                             <MeOrg>{item.org}</MeOrg>
                             <Me>{item.year}</Me>
-                            <Me>{item.scholarship}</Me>
+                            <Me>{item.detail}</Me>
                         </List>
             })
         }
@@ -48,7 +48,7 @@ const AboutSection = ({...data}) => {
                         <MeHead>{values.about[0].subject}</MeHead>
                         <MeOrg>{values.about[0].org}</MeOrg>
                         <Me>{values.about[0].year}</Me>
-                        <Me>{values.about[0].scholarship}</Me>
+                        <Me>{values.about[0].detail}</Me>
                     </List>
         }
     }

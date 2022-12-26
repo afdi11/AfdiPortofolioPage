@@ -17,7 +17,7 @@ import {
 } from './ResumeElements'
 import { data } from './Data'
 import { FcDownload } from 'react-icons/fc'
-import resume from "../../doc/Resume-Ido.pdf"
+import resume from "../../doc/AFDI-SOFTWAREENGINEER_BACKENDENGINEER-CV.pdf"
 
 const ResumeSection = () => {
 
