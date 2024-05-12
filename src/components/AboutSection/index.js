@@ -92,10 +92,11 @@ const AboutSection = ({...data}) => {
                                         onClick={() => replaceData('courses')}>
                                         Courses
                                     </Navitem> */}
-                                    <Link to="/resume">
+                                    <Link to="/resume" style={{textDecoration: 'none'}}>
                                         <ResumePage>
                                             <FcDocument />
                                             <FcNext />
+                                            Detail & Files
                                         </ResumePage>
                                     </Link>
                                 </Navigation>

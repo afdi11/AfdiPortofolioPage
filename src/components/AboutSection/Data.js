@@ -1,7 +1,7 @@
 export const data = {
     id: 'about',
     heading: 'About Me',
-    description: "Back-end engineer with 2 years working experience. can learn quickly. has experience working across fields such as software engineers, IT Support, journalists, and reporters. Just an ordinary human being who always wants to challenge himself to be more valuable",
+    description: "Back-end engineer with 3 years work experience. can learn quickly. Has developed several applications with various programming languages, both back-end and front-end, including PHP, ReactJs and Golang. Likes challenges and detailed things",
     hobbydesc: "Apart from coding, some other activities that I love to do!",
     hobbies: {
         hobby1: "Travelling",
@@ -11,7 +11,7 @@ export const data = {
     education: [
         {
             org: "UIN Sunan Kalijaga Yogyakarta",
-            subject: "Graduate Informatics Engineering",
+            subject: "Master of Informatics Engineering",
             year: "2022 - Now (On-Going)",
             detail: "Awardee of Santri Berprestasi Scholarship"
         },{
@@ -38,14 +38,24 @@ export const data = {
     ],
     experience: [
         {
-            subject: "Software Engineer",
+            subject: "Middle PHP Developer",
+            org: "PT. Javan Cipta Solusi",
+            year: "2023 - Now",
+        },
+        {
+            subject: "Associate Software Engineer",
             org: "Icube By Sirclo",
-            year: "2022 - now",
+            year: "2022 - 2023",
         },
         {
             subject: "IT Support",
             org: "Yayasan Nurul Huda Lampung",
             year: "2021 - 2022",
+        },
+        {
+            subject: "Laboratory Assistant",
+            org: "Institut Teknologi Sumatera",
+            year: "2018 - 2020",
         }
     ]
 }

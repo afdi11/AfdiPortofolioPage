@@ -1,10 +1,8 @@
 import React from 'react'
 import { AiFillHtml5 } from 'react-icons/ai';
-import { SiJavascript, SiDjango, SiHeroku, SiGithub, SiGooglecloud, SiMysql } from 'react-icons/si';
-import { FaReact, FaCss3Alt, FaBootstrap, FaPython, FaNodeJs } from 'react-icons/fa';
+import { SiJavascript, SiGithub, SiGooglecloud, SiMysql, SiReact, SiPostgresql } from 'react-icons/si';
+import { FaBootstrap,FaPhp, FaLaravel } from 'react-icons/fa';
 import { Caption, CodeContainer, CodeWrapper, Heading, Logo } from './CodeElements';
-import GitHubCalendar from 'react-github-calendar';
-
 
 const CodeSection = () => {
     const colourTheme = {
@@ -22,53 +20,45 @@ const CodeSection = () => {
             <CodeContainer id="code">
                 <Heading>Skillset</Heading>
                 <CodeWrapper>
-                    <Logo color={'#4B8BBE'}>
-                        <FaPython />
-                        <Caption>Python</Caption>
+                    <Logo color={'#61DBFB'}>
+                        <FaPhp />
+                        <Caption>PHP</Caption>
                     </Logo>
-                    <Logo color={'#f0db4f'}>
+                    <Logo color={'#61DBFB'}>
+                        <FaLaravel />
+                        <Caption>Laralel</Caption>
+                    </Logo>
+                    <Logo color={'#F7DF1E'}>
                         <SiJavascript />
                         <Caption>JavaScript</Caption>
                     </Logo>
-                    <Logo color={'#f06529'}>
+                    <Logo color={'#61DAE9'}>
+                        <SiReact />
+                        <Caption>React Js</Caption>
+                    </Logo>
+                    <Logo color={'#6A1B9A'}>
                         <AiFillHtml5 />
                         <Caption>HTLM 5</Caption>
                     </Logo>
-                    <Logo color={'#2965f1'}>
-                        <FaCss3Alt />
-                        <Caption>CSS3</Caption>
+                    <Logo color={'#00ADD8'}>
+                        <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_White.svg" alt="Go" width="50" height="50" style={{color: '#00ADD8'}} />
+                        <Caption>Golang</Caption>
                     </Logo>
-                    <Logo color={'#563d7c'}>
+                    <Logo color={'#7952B3'}>
                         <FaBootstrap />
                         <Caption>Bootstrap</Caption>
-                    </Logo>
-                    <Logo color={'#3c873a'}>
-                        <FaNodeJs />
-                        <Caption>Node JS</Caption>
-                    </Logo>
-                    <Logo color={'#61DBFB'}>
-                        <FaReact />
-                        <Caption>React</Caption>
-                    </Logo>
-                    <Logo color={'#092E20 '}>
-                        <SiDjango />
-                        <Caption>Django</Caption>
-                    </Logo>
-                    <Logo color={'#9E7CC1'}>
-                        <SiHeroku />
-                        <Caption>Heroku</Caption>
-                    </Logo>
-                    <Logo color={'#161B22'}>
+                    </Logo> 
+                    <Logo color={'#333'}>
                         <SiGithub />
                         <Caption>Github</Caption>
                     </Logo>
-                    <Logo color={'#4285F4'}>
-                        <SiGooglecloud />
-                        <Caption>Google Cloud</Caption>
-                    </Logo>
-                    <Logo color={'#00758F'}>
+                    <Logo color={'#4169E1'}>
                         <SiMysql />
                         <Caption>My SQL</Caption>
+                    </Logo>
+                    <Logo color={'#4169E1'}>
+                        <SiPostgresql />
+                        <Caption>PostgreSQL</Caption>
                     </Logo>
                 </CodeWrapper>
                 {/* <Heading>Days I Code</Heading>

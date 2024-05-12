@@ -20,6 +20,13 @@ export const ResumeWrapper = styled.div`
     border-left: 1px solid rgba(255, 255, 255, 0.2);
 `
 
+export const DownloadWrapper = styled.div`
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
 export const Heading = styled.h2`
     color: #6C63FF;
     border-bottom: 1px solid #6C63FF;
@@ -55,7 +62,7 @@ export const Caption = styled.p`
     margin: 10px auto;
     font-size: 20px;
     color: #fff;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 
     &:hover {
         text-decoration: underline;

@@ -5,6 +5,9 @@ import { AiOutlineStar } from 'react-icons/ai';
 import { BsCode, BsCodeSlash} from 'react-icons/bs';
 import { animateScroll as scroll } from 'react-scroll'
 import { Nav, Code, NavLogo, NavbarContainer, MobileIcon, NavMenu, NavItem, NavLinks, NavButton  } from './NavbarElements'
+import { ResumePage } from '../AboutSection/aboutElements';
+import { Link } from "react-router-dom";
+import { FcDocument, FcNext } from 'react-icons/fc';
 
 
 const Navbar = ({ toggle }) => {
@@ -69,6 +72,13 @@ const Navbar = ({ toggle }) => {
                                 <Code><BsCode />Code<BsCodeSlash /></Code>
                             </NavLinks>
                         </NavItem>
+                        <Link to="/resume" style={{textDecoration: 'none'}}>
+                            <ResumePage>
+                                <FcDocument />
+                                <FcNext />
+                                Detail & Files
+                            </ResumePage>
+                        </Link>
                     </NavMenu>
                     <NavButton href="https://github.com/afdi11/AfdiProfilePage" target="_blank">
                         <GoRepoForked />
